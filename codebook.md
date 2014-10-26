@@ -1,6 +1,6 @@
 The complete list of variables of each feature vector is available in 'features.txt' and descriptions can be found in 'feature_info.txt'.
 
-The file 'tidydata.txt' contains 81 variable. Except for the first two variables, all the others (either measuremnt on mean or std) are extracted from the whole database and further analyzed. 
+The file 'tidydata.txt' contains 81 variables that are listed below. Except for the first two variables, all the others (either measuremnt on mean or std) are extracted from the whole database and further analyzed. 
 
 "subject"                         "activity"                        "tBodyAcc-mean()-X"              
 "tBodyAcc-mean()-Y"               "tBodyAcc-mean()-Z"               "tBodyAcc-std()-X"               
@@ -30,6 +30,10 @@ The file 'tidydata.txt' contains 81 variable. Except for the first two variables
 "fBodyBodyGyroMag-mean()"         "fBodyBodyGyroMag-std()"          "fBodyBodyGyroMag-meanFreq()"    
 "fBodyBodyGyroJerkMag-mean()"     "fBodyBodyGyroJerkMag-std()"      "fBodyBodyGyroJerkMag-meanFreq()"
 
-1:The "subject" variable identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
+Note:
+
+1:The "subject" variable identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 2:The variable "activity" are six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) each subject performed. 
+
 3.The rest 79 variables store the average of each measurement for each activity and each subject.
